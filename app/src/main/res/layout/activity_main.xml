@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="dk.easj.anbo.collectwordsintent.MainActivity">
+
+    <EditText
+        android:id="@+id/mainWordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type a word"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/mainButtonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickedSave"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/mainButtonClear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickedClear"
+        android:text="Clear" />
+
+    <Button
+        android:id="@+id/mainButtonShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickedShow"
+        android:text="Show" />
+
+    <TextView
+        android:id="@+id/mainMessageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
